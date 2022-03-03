@@ -593,9 +593,9 @@ cor.test(x, y, method = "pearson")
 # Plot exercise distance vs sleep efficiency 
 ggplot(daily_merged, aes(x = exercise_distance, y = sleepEfficiency)) + 
   geom_point() + 
-  labs(x = "Exercise distance (m)",
+  labs(x = "Exercise distance (km)",
        y = "Sleep efficiency") +
-  labs(title = "Exercise distance (m) vs Sleep efficiency",
+  labs(title = "Exercise distance (km) vs Sleep efficiency",
        subtitle = "r = -0.15, => No correlation") 
 
 # Find correlation coefficient
@@ -664,7 +664,7 @@ However, since the sample size of sleep dataset is only 24, a larger sample size
 
 ## Summary of Analysis
 
-- The respondents are highly active, and meet the recommended exercise duration (150 minutes per week) and MET requirement (150 MET minute per week). They should have regular exercise habits. 
+- The respondents are physically active, and meeting the recommended exercise duration (150 minutes per week) and MET requirement (150 MET minute per week). They should have regular exercise habits. 
 
 - Most people exercise from 5 to 7pm on weekdays, and 1pm on Saturday. 
 
@@ -676,11 +676,11 @@ However, since the sample size of sleep dataset is only 24, a larger sample size
 
 ### 1. Content marketing 
 
-People have regular exercise habits should have good knowledge about fitness. Bellabeat's marketing team could provide more in depth, edgy sport science and nutrients contents in social media posts in order to provide new values to their customers. 
+People have regular exercise habits should have good knowledge about fitness. Bellabeat's marketing social media could post more in depth, edgy sport science and nutrients contents, in order to provide new values to their customers. 
 
 ### 2. Member subscription conversion 
 
-Bellabeat could setup freemium membership to maximise customer lifetime value (CLV). Paid memberships could receive extra contents and attend virtual events. e.g. Cross training virtual class on Tuesday 6pm. 
+Bellabeat could setup freemium membership model to maximise customer lifetime value (CLV). Paid memberships could receive exclusive contents and attend virtual events, timing based on the usage analysis. e.g. Cross training virtual class on Tuesday 6pm. 
 
 ### 3. Best time for notification 
 
