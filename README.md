@@ -727,7 +727,7 @@ weekly_exercise_minutes <- weekly_exercise_minutes %>%
 
 # 4. Analyse and visualise
 
-## Support visualistions and key findings
+## Support visualisations and key findings
 
 ### Weekly MET minute pattern
 
