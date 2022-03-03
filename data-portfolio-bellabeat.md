@@ -1,12 +1,7 @@
 Bellabeat Marketing Fitness Tracker Usage Case Study
 ================
 Eric Chan
-3/2/2022
-
-``` r
-knitr::opts_chunk$set(
-  fig.path = "figure/fig-")
-```
+2022-03-02
 
 # Case background
 
@@ -87,7 +82,7 @@ install.packages("tidyverse", repos = "http://cran.us.r-project.org")
 
     ## 
     ## The downloaded binary packages are in
-    ##  /var/folders/q2/hkxc299n7rz86s28bfjzh63r0000gn/T//RtmpAQHIXh/downloaded_packages
+    ##  /var/folders/q2/hkxc299n7rz86s28bfjzh63r0000gn/T//Rtmp1otePx/downloaded_packages
 
 ``` r
 install.packages("lubridate", repos = "http://cran.us.r-project.org")
@@ -95,7 +90,7 @@ install.packages("lubridate", repos = "http://cran.us.r-project.org")
 
     ## 
     ## The downloaded binary packages are in
-    ##  /var/folders/q2/hkxc299n7rz86s28bfjzh63r0000gn/T//RtmpAQHIXh/downloaded_packages
+    ##  /var/folders/q2/hkxc299n7rz86s28bfjzh63r0000gn/T//Rtmp1otePx/downloaded_packages
 
 ``` r
 install.packages("hms", repos = "http://cran.us.r-project.org")
@@ -103,7 +98,7 @@ install.packages("hms", repos = "http://cran.us.r-project.org")
 
     ## 
     ## The downloaded binary packages are in
-    ##  /var/folders/q2/hkxc299n7rz86s28bfjzh63r0000gn/T//RtmpAQHIXh/downloaded_packages
+    ##  /var/folders/q2/hkxc299n7rz86s28bfjzh63r0000gn/T//Rtmp1otePx/downloaded_packages
 
 ``` r
 install.packages("skimr", repos = "http://cran.us.r-project.org")
@@ -111,7 +106,7 @@ install.packages("skimr", repos = "http://cran.us.r-project.org")
 
     ## 
     ## The downloaded binary packages are in
-    ##  /var/folders/q2/hkxc299n7rz86s28bfjzh63r0000gn/T//RtmpAQHIXh/downloaded_packages
+    ##  /var/folders/q2/hkxc299n7rz86s28bfjzh63r0000gn/T//Rtmp1otePx/downloaded_packages
 
 ``` r
 install.packages("janitor", repos = "http://cran.us.r-project.org")
@@ -119,7 +114,7 @@ install.packages("janitor", repos = "http://cran.us.r-project.org")
 
     ## 
     ## The downloaded binary packages are in
-    ##  /var/folders/q2/hkxc299n7rz86s28bfjzh63r0000gn/T//RtmpAQHIXh/downloaded_packages
+    ##  /var/folders/q2/hkxc299n7rz86s28bfjzh63r0000gn/T//Rtmp1otePx/downloaded_packages
 
 ``` r
 install.packages("scales", repos = "http://cran.us.r-project.org")
@@ -127,7 +122,7 @@ install.packages("scales", repos = "http://cran.us.r-project.org")
 
     ## 
     ## The downloaded binary packages are in
-    ##  /var/folders/q2/hkxc299n7rz86s28bfjzh63r0000gn/T//RtmpAQHIXh/downloaded_packages
+    ##  /var/folders/q2/hkxc299n7rz86s28bfjzh63r0000gn/T//Rtmp1otePx/downloaded_packages
 
 ``` r
 install.packages("multimode", repos = "http://cran.us.r-project.org")
@@ -135,7 +130,7 @@ install.packages("multimode", repos = "http://cran.us.r-project.org")
 
     ## 
     ## The downloaded binary packages are in
-    ##  /var/folders/q2/hkxc299n7rz86s28bfjzh63r0000gn/T//RtmpAQHIXh/downloaded_packages
+    ##  /var/folders/q2/hkxc299n7rz86s28bfjzh63r0000gn/T//Rtmp1otePx/downloaded_packages
 
 ``` r
 # Load packages 
@@ -765,7 +760,7 @@ ggplot(weeklyMET, aes(x=avg_weekly_MET)) +
        subtitle = "All sample meets the minium weekly MET minute recommeded") 
 ```
 
-![](figure/fig-unnamed-chunk-17-1.png)<!-- -->
+![](figure/fig-unnamed-chunk-16-1.png)<!-- -->
 
 Metabolic equivalent of task (MET) – 1 MET is the amount of energy used
 at rest. MET is used to indicate physical intensity.
@@ -836,7 +831,7 @@ ggplot(weekly_exercise_minutes, aes(x = avg_weekly_exer_min)) +
        subtitle = "Majority of sample meets the minium weekly MET minute recommeded") 
 ```
 
-![](figure/fig-unnamed-chunk-19-1.png)<!-- -->
+![](figure/fig-unnamed-chunk-18-1.png)<!-- -->
 
 ``` r
 summary(weekly_exercise_minutes$avg_weekly_exer_min)
@@ -875,7 +870,7 @@ ggplot(usage, aes(x = usage_day * 24)) +
        subtitle = "How long do they use the device each day? ") 
 ```
 
-![](figure/fig-unnamed-chunk-20-1.png)<!-- -->
+![](figure/fig-unnamed-chunk-19-1.png)<!-- -->
 
 ``` r
 # Find mode
@@ -886,7 +881,7 @@ locmodes(usage$usage_day, mod0=2, display=TRUE)
     ## function has an unbounded support, artificial modes may have been created in the
     ## tails
 
-![](figure/fig-unnamed-chunk-20-2.png)<!-- -->
+![](figure/fig-unnamed-chunk-19-2.png)<!-- -->
 
     ## 
     ## Estimated location
@@ -935,7 +930,7 @@ ggplot(hourlyIntensity, aes(x = weekday, y = total_int)) +
        subtitle = "Tuesday and wednesday are popular for workout") 
 ```
 
-![](figure/fig-unnamed-chunk-21-1.png)<!-- -->
+![](figure/fig-unnamed-chunk-20-1.png)<!-- -->
 
 ``` r
 ggplot(hourlyIntensity, aes(x = time, y = total_int)) +
@@ -947,7 +942,7 @@ ggplot(hourlyIntensity, aes(x = time, y = total_int)) +
        subtitle = "5 pm to 7 pm are popular for workout") 
 ```
 
-![](figure/fig-unnamed-chunk-21-2.png)<!-- -->
+![](figure/fig-unnamed-chunk-20-2.png)<!-- -->
 
 ``` r
 ggplot(hourlyIntensity, aes(x = time, y = total_int)) +
@@ -960,7 +955,7 @@ ggplot(hourlyIntensity, aes(x = time, y = total_int)) +
        subtitle = "Tue, Wed after work and Sat noon are popular for workout") 
 ```
 
-![](figure/fig-unnamed-chunk-21-3.png)<!-- -->
+![](figure/fig-unnamed-chunk-20-3.png)<!-- -->
 
 Tuesday and Wednesday are popular weekday for workout.
 
@@ -985,7 +980,7 @@ ggplot(daily_merged, aes(x = adjusted_exercise_minutes, y = exercise_distance)) 
 
     ## `geom_smooth()` using formula 'y ~ x'
 
-![](figure/fig-unnamed-chunk-22-1.png)<!-- -->
+![](figure/fig-unnamed-chunk-21-1.png)<!-- -->
 
 ``` r
 # Find correlation coefficient
@@ -1029,7 +1024,7 @@ ggplot(daily_merged, aes(x = adjusted_exercise_minutes, y = sleepEfficiency)) +
        subtitle = "r = -0.002, => No correlation") 
 ```
 
-![](figure/fig-unnamed-chunk-23-1.png)<!-- -->
+![](figure/fig-unnamed-chunk-22-1.png)<!-- -->
 
 ``` r
 # Find correlation coefficient
@@ -1060,7 +1055,7 @@ ggplot(daily_merged, aes(x = TotalSteps, y = sleepEfficiency)) +
        subtitle = "r = -0.062, => No correlation") 
 ```
 
-![](figure/fig-unnamed-chunk-23-2.png)<!-- -->
+![](figure/fig-unnamed-chunk-22-2.png)<!-- -->
 
 ``` r
 # Find correlation coefficient
@@ -1091,7 +1086,7 @@ ggplot(daily_merged, aes(x = exercise_distance, y = sleepEfficiency)) +
        subtitle = "r = -0.15, => No correlation") 
 ```
 
-![](figure/fig-unnamed-chunk-23-3.png)<!-- -->
+![](figure/fig-unnamed-chunk-22-3.png)<!-- -->
 
 ``` r
 # Find correlation coefficient
@@ -1122,7 +1117,7 @@ ggplot(daily_merged, aes(x = total_int, y = sleepEfficiency)) +
        subtitle = "r = 0.065, => No correlation") 
 ```
 
-![](figure/fig-unnamed-chunk-23-4.png)<!-- -->
+![](figure/fig-unnamed-chunk-22-4.png)<!-- -->
 
 ``` r
 # Find correlation coefficient
@@ -1161,7 +1156,7 @@ ggplot(daily_merged, aes(x = adjusted_exercise_minutes, y = Calories)) +
 
     ## `geom_smooth()` using formula 'y ~ x'
 
-![](figure/fig-unnamed-chunk-24-1.png)<!-- -->
+![](figure/fig-unnamed-chunk-23-1.png)<!-- -->
 
 ``` r
 # Find correlation coefficient
@@ -1195,7 +1190,7 @@ ggplot(daily_merged, aes(x = adjusted_exercise_minutes, y = Calories, colour = g
   theme(legend.title = element_blank(), legend.position = "right")
 ```
 
-![](figure/fig-unnamed-chunk-24-2.png)<!-- -->
+![](figure/fig-unnamed-chunk-23-2.png)<!-- -->
 
 ``` r
 # Percentage of good sleep efficiency 
@@ -1214,7 +1209,7 @@ percent_x
     ##   len = length(ls_x)
     ##   len / lens * 100
     ## }
-    ## <bytecode: 0x2824a5d20>
+    ## <bytecode: 0x29f17a830>
 
 Correlation coefficient (r) = 0.54
 

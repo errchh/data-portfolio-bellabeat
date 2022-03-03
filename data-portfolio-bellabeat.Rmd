@@ -1,17 +1,13 @@
 ---
 title: "Bellabeat Marketing Fitness Tracker Usage Case Study"
 author: "Eric Chan"
-date: "3/2/2022"
+date: "2022-03-02"
 output: github_document 
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
-```{r}
-knitr::opts_chunk$set(
-  fig.path = "figure/fig-")
+knitr::opts_chunk$set(echo = TRUE, 
+                      fig.path = "figure/fig-")
 ```
 
 # Case background
