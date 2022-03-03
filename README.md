@@ -1245,21 +1245,21 @@ sample size is needed to have a solid conclusion.
 
 ## High level marketing strategy recommendations
 
-### Content marketing 
+### 1. Content marketing 
 
 People have regular exercise habits should have good
 knowledge about fitness. Bellabeat’s marketing team could provide more
 in depth, edgy sport science and nutrients contents in social media
 posts in order to provide new values to their customers.
 
-### Member subscription conversion 
+### 2. Member subscription conversion 
 
 Bellabeat could setup freemium
 membership to maximise customer lifetime value (CLV). Paid memberships
 could receive extra contents and attend virtual events. e.g. Cross
 training virtual class on Tuesday 6pm.
 
-### Best time for notification 
+### 3. Best time for notification 
 
 Provides a good user experience by having
 relevant contents according to usage patterns. e.g. Recovery or
