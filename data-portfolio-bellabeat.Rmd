@@ -128,7 +128,7 @@ n_distinct(weight_raw$Id)
 
 There are 33 respondents in the activity datasets. 
 
-Only 24 participated in the sleep dataset; 8 in weight dataset. Sample size less than 30, this may be not representative (Central Limit Theorem - CLT). 
+Only 24 participated in the sleep dataset; 8 in weight dataset. Sample size less than 30, this may be not representative (Central Limit Theorem CLT). 
 
 Preliminary I will take a look at the sleep dataset see if there are any patterns. Further work on sample size is needed for any conclusion. 
 
@@ -674,11 +674,17 @@ However, since the sample size of sleep dataset is only 24, a larger sample size
 
 ## High level marketing strategy recommendations 
 
-Content marketing -- People have regular exercise habits should have good knowledge about fitness. Bellabeat's marketing team could provide more in depth, edgy sport science and nutrients contents in social media posts in order to provide new value to their customers. 
+### 1. Content marketing 
 
-Member subscription conversion -- Bellabeat could setup freemium membership to maximise customer lifetime value (CLV). Paid memberships could receive extra contents and attend virtual events. e.g. Cross training virtual class on Tuesday 6pm. 
+People have regular exercise habits should have good knowledge about fitness. Bellabeat's marketing team could provide more in depth, edgy sport science and nutrients contents in social media posts in order to provide new values to their customers. 
 
-Best time for notification -- Provides a good user experience by having relevant contents according to usage patterns. e.g. Recovery or nutrition tips after workout at 7 pm. 
+### 2. Member subscription conversion 
+
+Bellabeat could setup freemium membership to maximise customer lifetime value (CLV). Paid memberships could receive extra contents and attend virtual events. e.g. Cross training virtual class on Tuesday 6pm. 
+
+### 3. Best time for notification 
+
+Provides good UX by having relevant contents according to usage patterns. e.g. Recovery or nutrition tips after workout at 7 pm. 
 
 ## Marketing v2 -- what's next? 
 
