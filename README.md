@@ -1259,9 +1259,9 @@ membership to maximise customer lifetime value (CLV). Paid memberships
 could receive extra contents and attend virtual events. e.g. Cross
 training virtual class on Tuesday 6pm.
 
-### 3. Best time for notification 
+### 3. Best time for notifications 
 
-Provides a good user experience by having
+Provides good UX by having
 relevant contents according to usage patterns. e.g. Recovery or
 nutrition tips after workout at 7 pm.
 
