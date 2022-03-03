@@ -415,8 +415,7 @@ n_distinct(weight_raw$Id)
 There are 33 respondents in the activity datasets.
 
 Only 24 participated in the sleep dataset; 8 in weight dataset. Sample
-size less than 30, this may be not representative (Central Limit Theorem
-- CLT).
+size less than 30, this may be not representative (Central Limit Theorem CLT).
 
 Preliminary I will take a look at the sleep dataset see if there are any
 patterns. Further work on sample size is needed for any conclusion.
