@@ -1,4 +1,4 @@
-Bellabeat Marketing Fitness Tracker Usage Case Study
+Bellabeat Marketing Fitness Tracker User Behaviour Case Study
 ================
 Eric Chan
 2022-03-02
